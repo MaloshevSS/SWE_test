@@ -8,15 +8,13 @@ Ensure that you have Python>=3 on your computer
 Python 3.8.6
 
 ```
-Also, download and put in bin/ directory chromedriver
-https://chromedriver.chromium.org/downloads
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip3 -r install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
