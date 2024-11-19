@@ -1,2 +1,5 @@
+websocket-client
+certifi
+requests
+python-dotenv
 selenium
-webdriver-manager

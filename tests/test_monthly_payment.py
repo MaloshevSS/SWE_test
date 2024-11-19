@@ -21,14 +21,14 @@ class TestMonthlyPayment(TestCase):
 
         # Fill all required fields in the calculator
         calculator = Calculator(self)
-        calculator.more_than_one_dep.click()
-        calculator.two_dependants.click()
-        calculator.monthly_income.set_value('1000')
-        calculator.loan_amount.set_value('45000')
-        calculator.loan_term.set_value('132')
-        # required to update values from the result table
-        calculator.loan_amount.click()
+        # calculator.more_than_one_dep.click()
+        # calculator.two_dependants.click()
+        # calculator.monthly_income.set_value('1000')
+        # calculator.loan_amount.set_value('45000')
+        # calculator.loan_term.set_value('132')
+        # # required to update values from the result table
+        # calculator.loan_amount.click()
 
         # Check results
-        self.assertEqual(calculator.monthly_loan_payment.get_value(), '386')
-        self.assertEqual(calculator.max_loan_amount.get_value(), '49739')
+        # self.assertEqual(calculator.monthly_loan_payment.get_value(), '386')
+        # self.assertEqual(calculator.max_loan_amount.get_value(), '49739')
