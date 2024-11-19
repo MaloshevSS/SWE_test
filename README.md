@@ -8,13 +8,18 @@ Ensure that you have Python>=3 on your computer
 Python 3.8.6
 
 ```
+get venv
+<!-- /SWE_test> python3 -m venv .venv -->
+
+start venv
+<!-- source .venv/bin/activate -->
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip3 install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Usage
